@@ -10,7 +10,15 @@ public class Main {
         System.out.println("It's developer tea time!");
     }
     public static void main(String[] args) {
+			System.out.println("inside main 1st print");
 
+			announceDeveloperTeaTime();
+
+			System.out.println("inside main 2nd print");
+
+			announceDeveloperTeaTime();
+
+			System.out.println("inside main 3nd print");
     }
 
 }
